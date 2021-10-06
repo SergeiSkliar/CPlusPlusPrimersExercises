@@ -143,4 +143,24 @@
 //    return 0;
 //}
 
-
+//Exercise 4.31: The program in this section used the prefix increment and
+//decrement operators.Explain why we used prefix and not postfix.What
+//changes would have to be made to use the postfix versions ? Rewrite the
+//program using postfix operators.
+//
+//#include <iostream>
+//#include <vector>
+//
+//int main() {
+//	std::vector<int> ivec(5, 0);
+//	for (const auto i : ivec) std::cout << ivec[i] << " ";
+//	std::cout << std::endl;
+//
+//	std::vector<int>::size_type cnt = ivec.size();
+//	// assign values from size... 1 to the elements in ivec
+//	for (std::vector<int>::size_type ix = 0; ix != ivec.size(); ix++, cnt--)
+//		ivec[ix] = cnt;
+//
+//	for (const auto i : ivec) std::cout << ivec[i] << " ";
+//	std::cout << std::endl;
+//}
