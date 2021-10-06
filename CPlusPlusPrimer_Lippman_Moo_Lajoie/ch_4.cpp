@@ -72,54 +72,75 @@
 //Exercise 4.28: Write a program to print the size of each of the built - in
 //types.
 
-#include <iostream>
+//#include <iostream>
+//
+//int main() {
+//	//void
+//	std::cout << "void and pointer" << std::endl;
+//	std::cout << "void:\t\t" << sizeof(void *) << std::endl;
+//	std::cout << "nullptr_t:\t" << sizeof(nullptr_t) << std::endl << std::endl;
+//
+//
+//	//bool
+//	std::cout << "Bool type" << std::endl;
+//	std::cout << "bool:\t\t" << sizeof(bool) << std::endl << std::endl;
+//
+//
+//	//integer types
+//	std::cout << "Integer types" << std::endl;
+//	std::cout << "int:\t\t" << sizeof(int) << std::endl;
+//	std::cout << "short:\t\t" << sizeof(short) << std::endl;
+//	std::cout << "long:\t\t" << sizeof(long) << std::endl;
+//	std::cout << "long long:\t" << sizeof(long long) << std::endl << std::endl;;
+//
+//	//floating point types
+//	std::cout << "Floating point types" << std::endl;
+//	std::cout << "float:\t\t" << sizeof(float) << std::endl;
+//	std::cout << "double:\t\t" << sizeof(double) << std::endl;
+//	std::cout << "long double:\t" << sizeof(long double) << std::endl << std::endl;;
+//
+//	//character types
+//	std::cout << "Character types" << std::endl;
+//	std::cout << "char:\t\t" << sizeof(char) << std::endl;
+//	std::cout << "wchar_t:\t" << sizeof(wchar_t) << std::endl;
+//	std::cout << "signed char:\t" << sizeof(signed char) << std::endl;
+//	std::cout << "unsigned char:\t" << sizeof(unsigned char) << std::endl;
+//	//std::cout << sizeof(char8_t); // c++20 standard
+//	std::cout << "char16_t:\t" << sizeof(char16_t) << std::endl;
+//	std::cout << "char32_t:\t" << sizeof(char32_t) << std::endl << std::endl;
+//
+//	// fixed width integers
+//	std::cout << "Fixed width integer types" << std::endl;
+//	std::cout << "int8_t:\t\t" << sizeof(int8_t) << " bytes" << std::endl;
+//	std::cout << "uint8_t:\t" << sizeof(uint8_t) << " bytes" << std::endl;
+//	std::cout << "int16_t:\t" << sizeof(int16_t) << " bytes" << std::endl;
+//	std::cout << "uint16_t:\t" << sizeof(uint16_t) << " bytes" << std::endl;
+//	std::cout << "int32_t:\t" << sizeof(int32_t) << " bytes" << std::endl;
+//	std::cout << "uint32_t:\t" << sizeof(uint32_t) << " bytes" << std::endl;
+//	std::cout << "int64_t:\t" << sizeof(int64_t) << " bytes" << std::endl;
+//	std::cout << "uint64_t:\t" << sizeof(uint64_t) << " bytes" << std::endl << std::endl;;
+//}
 
-int main() {
-	//void
-	std::cout << "void and pointer" << std::endl;
-	std::cout << "void:\t\t" << sizeof(void *) << std::endl;
-	std::cout << "nullptr_t:\t" << sizeof(nullptr_t) << std::endl << std::endl;
+//Exercise 4.29: Predict the output of the following code and explain your
+//reasoning.Now run the program.Is the output what you expected ? If not,
+//figure out why.
 
+//#include <iostream>
+//
+//using namespace std;
+//
+//int main()
+//{
+//    int x[10]; int* p = x;
+//    cout << sizeof(x) << endl; // 40
+//    cout << sizeof(*x) << endl; // 4
+//    cout << sizeof(x)/sizeof(*x) << endl; // 10
+//
+//    cout << sizeof(p) << endl; // 4
+//    cout << sizeof(*p) << endl; // 4
+//    cout << sizeof(p)/sizeof(*p) << endl; // 1
+//
+//    return 0;
+//}
 
-	//bool
-	std::cout << "Bool type" << std::endl;
-	std::cout << "bool:\t\t" << sizeof(bool) << std::endl << std::endl;
-
-
-	//integer types
-	std::cout << "Integer types" << std::endl;
-	std::cout << "int:\t\t" << sizeof(int) << std::endl;
-	std::cout << "short:\t\t" << sizeof(short) << std::endl;
-	std::cout << "long:\t\t" << sizeof(long) << std::endl;
-	std::cout << "long long:\t" << sizeof(long long) << std::endl << std::endl;;
-
-	//floating point types
-	std::cout << "Floating point types" << std::endl;
-	std::cout << "float:\t\t" << sizeof(float) << std::endl;
-	std::cout << "double:\t\t" << sizeof(double) << std::endl;
-	std::cout << "long double:\t" << sizeof(long double) << std::endl << std::endl;;
-
-	//character types
-	std::cout << "Character types" << std::endl;
-	std::cout << "char:\t\t" << sizeof(char) << std::endl;
-	std::cout << "wchar_t:\t" << sizeof(wchar_t) << std::endl;
-	std::cout << "signed char:\t" << sizeof(signed char) << std::endl;
-	std::cout << "unsigned char:\t" << sizeof(unsigned char) << std::endl;
-	//std::cout << sizeof(char8_t); // c++20 standard
-	std::cout << "char16_t:\t" << sizeof(char16_t) << std::endl;
-	std::cout << "char32_t:\t" << sizeof(char32_t) << std::endl << std::endl;
-
-	// fixed width integers
-	std::cout << "Fixed width integer types" << std::endl;
-	std::cout << "int8_t:\t\t" << sizeof(int8_t) << " bytes" << std::endl;
-	std::cout << "uint8_t:\t" << sizeof(uint8_t) << " bytes" << std::endl;
-	std::cout << "int16_t:\t" << sizeof(int16_t) << " bytes" << std::endl;
-	std::cout << "uint16_t:\t" << sizeof(uint16_t) << " bytes" << std::endl;
-	std::cout << "int32_t:\t" << sizeof(int32_t) << " bytes" << std::endl;
-	std::cout << "uint32_t:\t" << sizeof(uint32_t) << " bytes" << std::endl;
-	std::cout << "int64_t:\t" << sizeof(int64_t) << " bytes" << std::endl;
-	std::cout << "uint64_t:\t" << sizeof(uint64_t) << " bytes" << std::endl << std::endl;;
-
-
-}
 
