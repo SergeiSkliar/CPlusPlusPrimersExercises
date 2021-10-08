@@ -187,26 +187,26 @@
 // (c)pv = &d;
 // (d)pc = (char*)pv;
 
-#include <iostream>
-
-int main() {
-	int i; 
-	double d; 
-	const string* ps; 
-	char* pc; 
-	void* pv;
-
-	 // pv = (void*)ps;
-	pv = const_cast<void*>(ps);
-
-	 // i = int(*pc);
-	// i = reinterpret_cast<int>(pc); // wrong!
-	i = static_cast<int>(pc); // correct
-
-	 // pv = &d;
-	pv = static_cast<void*>(&d); 
-
-	 // pc = (char*)pv;
-	pc = reinterpret_cast<char*>(pv);
-
-}
+//#include <iostream>
+//
+//int main() {
+//	int i; 
+//	double d; 
+//	const string* ps; 
+//	char* pc; 
+//	void* pv;
+//
+//	 // pv = (void*)ps;
+//	pv = const_cast<void*>(ps);
+//
+//	 // i = int(*pc);
+//	// i = reinterpret_cast<int>(pc); // wrong!
+//	i = static_cast<int>(pc); // correct
+//
+//	 // pv = &d;
+//	pv = static_cast<void*>(&d); 
+//
+//	 // pc = (char*)pv;
+//	pc = reinterpret_cast<char*>(pv);
+//
+//}
