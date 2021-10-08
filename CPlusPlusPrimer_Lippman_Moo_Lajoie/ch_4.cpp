@@ -164,3 +164,49 @@
 //	for (const auto i : ivec) std::cout << ivec[i] << " ";
 //	std::cout << std::endl;
 //}
+
+//Exercise 4.36: Assuming i is an intand d is a double write the
+//expression i *= d so that it does integral, rather than floating - point,
+//multiplication.
+//
+//#include <iostream>
+//
+//int main()
+//{
+//    int i = 4;
+//    double d = 4;
+//    int m = i * static_cast<int>(d);
+//    std::cout << m;
+//    return 0;
+//}
+
+//Exercise 4.37: Rewrite each of the following old - style casts to use a named
+//cast : int i; double d; const string* ps; char* pc; void* pv;
+// (a)pv = (void*)ps;
+// (b)i = int(*pc);
+// (c)pv = &d;
+// (d)pc = (char*)pv;
+
+#include <iostream>
+
+int main() {
+	int i; 
+	double d; 
+	const string* ps; 
+	char* pc; 
+	void* pv;
+
+	 // pv = (void*)ps;
+	pv = const_cast<void*>(ps);
+
+	 // i = int(*pc);
+	// i = reinterpret_cast<int>(pc); // wrong!
+	i = static_cast<int>(pc); // correct
+
+	 // pv = &d;
+	pv = static_cast<void*>(&d); 
+
+	 // pc = (char*)pv;
+	pc = reinterpret_cast<char*>(pv);
+
+}
