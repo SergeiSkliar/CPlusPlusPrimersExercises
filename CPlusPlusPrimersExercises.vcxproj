@@ -101,15 +101,14 @@
     <ClCompile Include="cplusplusprimerplus_prata\chapter_2.cpp" />
     <ClCompile Include="cplusplusprimerplus_prata\chapter_3.cpp" />
     <ClCompile Include="cplusplusprimerplus_prata\chapter_4.cpp" />
+    <ClCompile Include="CPlusPlusPrimerPlus_Prata\ch_5\ex_5_3.cpp" />
     <ClCompile Include="cplusplusprimer_lippman_moo_lajoie\ch_3.cpp" />
     <ClCompile Include="cplusplusprimer_lippman_moo_lajoie\ch_4.cpp" />
     <ClCompile Include="CPlusPlusPrimerPlus_Prata\chapter_2.cpp" />
     <ClCompile Include="CPlusPlusPrimerPlus_Prata\chapter_3.cpp" />
     <ClCompile Include="CPlusPlusPrimerPlus_Prata\chapter_4.cpp" />
-    <ClCompile Include="CPlusPlusPrimerPlus_Prata\ch_5\chapter_5_examples.cpp" />
     <ClCompile Include="CPlusPlusPrimer_Lippman_Moo_Lajoie\ch_3.cpp" />
     <ClCompile Include="CPlusPlusPrimer_Lippman_Moo_Lajoie\ch_4.cpp" />
-    <ClCompile Include="ex_5_2.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
