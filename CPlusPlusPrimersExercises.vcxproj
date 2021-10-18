@@ -101,9 +101,9 @@
     <ClCompile Include="cplusplusprimerplus_prata\chapter_2.cpp" />
     <ClCompile Include="cplusplusprimerplus_prata\chapter_3.cpp" />
     <ClCompile Include="cplusplusprimerplus_prata\chapter_4.cpp" />
-    <ClCompile Include="cplusplusprimerplus_prata\chapter_5.cpp" />
     <ClCompile Include="cplusplusprimer_lippman_moo_lajoie\ch_3.cpp" />
     <ClCompile Include="cplusplusprimer_lippman_moo_lajoie\ch_4.cpp" />
+    <ClCompile Include="ex_5_1.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
