@@ -1,5 +1,5 @@
 // 2
-/*double furlongs_to_yards(double);
+double furlongs_to_yards(double);
 
 int main()
 {
@@ -17,7 +17,7 @@ double furlongs_to_yards(double x) {
     return x * 220;*/
 
     // 3
-    /*void blind_mice(void);
+    void blind_mice(void);
     void see(void);
 
     int main()
@@ -36,4 +36,4 @@ double furlongs_to_yards(double x) {
 
     void see(void){
         std::cout << "See how they run" << std::endl;
-    }*/
+    }

@@ -1,4 +1,4 @@
-/*#include <iostream>
+#include <iostream>
 #include <climits>
 
 int main()
@@ -26,9 +26,9 @@ int main()
 	cout << CHAR_BIT << endl;
 
 
-}*/
+}
 
-/*#include <iostream>
+#include <iostream>
 #define ZERO 0 // makes ZERO symbol for 0 value
 #include <climits> // defines INT_MAX as largest int value
 int main()
@@ -53,9 +53,9 @@ int main()
 	cout << "Sam has " << sam << " dollars and Sue has " << sue;
 	cout << " dollars deposited." << endl << "Lucky Sue!" << endl;
 	return 0;
-}*/
+}
 
-/*#include <iostream>
+#include <iostream>
 int main()
 {
 	using namespace std;
@@ -67,8 +67,8 @@ int main()
 	cout << "waist = " << waist << " (0x42 in hex)\n";
 	cout << "inseam = " << inseam << " (042 in octal)\n";
 	return 0;
-}*/
-/*#include <iostream>
+}
+#include <iostream>
 using namespace std;
 int main()
 {
@@ -83,9 +83,9 @@ int main()
 	cout << oct; // manipulator for changing number base
 	cout << "inseam = " << inseam << " (octal for 42)" << endl;
 	return 0;
-}*/
+}
 
-/*#include <iostream>
+#include <iostream>
 int main()
 {
 	using namespace std;
@@ -95,9 +95,9 @@ int main()
 	cout << "Hola! ";
 	cout << "Thank you for the " << ch << " character." << endl;
 	return 0;
-}*/
+}
 
-/*#include <iostream>
+#include <iostream>
 int main()
 {
 	using namespace std;
@@ -115,9 +115,9 @@ int main()
 	cout.put('!');
 	cout << endl << "Done" << endl;
 	return 0;
-}*/
+}
 
-/*#include <iostream>
+#include <iostream>
 int main()
 {
 	using namespace std;
@@ -128,9 +128,9 @@ int main()
 	cout << "\aYou entered " << code << "...\n";
 	cout << "\aCode verified! Proceed with Plan Z3!\n";
 	return 0;
-}*/
+}
 
-/*#include <iostream>
+#include <iostream>
 int main()
 {
 	using namespace std;
@@ -147,21 +147,21 @@ int main()
 	cout << 10 * million * mint << endl;
 
 	return 0;
-}*/
+}
 
-//#include <iostream>
+#include <iostream>
 
-/*int main()
+int main()
 {
-	/*using namespace std;
+	using namespace std;
 	float a = 2.34E+22f;
 	float b = a + 1.0f;
 
 	cout << a << endl;
 	cout << b-a << endl;
 	double Double = 3.14;
-}*/
-/*#include <iostream>
+}
+#include <iostream>
 
 int main()
 {
@@ -174,9 +174,9 @@ int main()
 	cout << "guess = " << guess << endl;
 	cout << "debt = " << debt << endl;
 	return 0;
-}*/
+}
 
-/*#include <typeinfo>
+#include <typeinfo>
 #include <iostream>
 
 int main()
@@ -188,7 +188,7 @@ int main()
 	auto crat = U'/U00002155';
 	cout << typeid(crat).name() << endl;
 	return 0;
-}*/
+}
 
 /* 1. Write a short program that asks for your height in integer inches and then converts
 your height to feet and inches. Have the program use the underscore character to
