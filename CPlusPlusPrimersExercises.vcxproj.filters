@@ -54,7 +54,22 @@
     <ClCompile Include="cplusplusprimer_lippman_moo_lajoie\ch_4.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="CPlusPlusPrimerPlus_Prata\ch_5\ex_5_5.cpp">
+    <ClCompile Include="CPlusPlusPrimerPlus_Prata\chapter_2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlusPlusPrimerPlus_Prata\chapter_3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlusPlusPrimerPlus_Prata\chapter_4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlusPlusPrimer_Lippman_Moo_Lajoie\ch_3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlusPlusPrimer_Lippman_Moo_Lajoie\ch_4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_5_6.cpp">
       <Filter>Source Files\CPlusPlusPrimerPlus_Prata\chapter_5</Filter>
     </ClCompile>
   </ItemGroup>
