@@ -11,6 +11,23 @@
 //	.****
 //	*****
 
+// simple solution
+//#include <iostream>
+//#include <string>
+//
+//int main() {
+//	int rows;
+//	std::cout << "Enter number of rows: ";
+//	std::cin >> rows;
+//	std::cin.get();
+//
+//	for (int i = rows; i != 0; --i) {
+//		std::cout << std::string(i-1, '.') << std::string(rows - i + 1, '*') << std::endl;
+//	}
+//}
+
+// nested loop solution
+
 #include <iostream>
 #include <string>
 
@@ -20,7 +37,14 @@ int main() {
 	std::cin >> rows;
 	std::cin.get();
 
-	for (int i = rows; i != 0; --i) {
-		std::cout << std::string(i-1, '.') << std::string(rows - i + 1, '*') << std::endl;
+	for (size_t i = rows; i != 0; --i) {
+		for (size_t j = i - 1; j != 0; --j) {
+			std::cout << '.';
+		}
+		for (size_t j = rows - i + 1; j != 0; --j) {
+			
+			std::cout << '*';
+		}
+		std::cout << std::endl;
 	}
 }
