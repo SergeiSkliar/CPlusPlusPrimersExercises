@@ -22,6 +22,12 @@
     <Filter Include="Source Files\CPlusPlusPrimerPlus_Prata\chapter_5">
       <UniqueIdentifier>{8be848b0-bd9d-4068-9e4a-c2dfeb02bb76}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\CPlusPlusPrimerPlus_Prata\chapter_6">
+      <UniqueIdentifier>{3a0c679e-935c-428f-9b14-56a899d29128}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CPlusPlusPrimer_Lippman_Moo_Lajoie\chapter_5">
+      <UniqueIdentifier>{b8c03c8e-e061-4504-bed7-1743339b31f1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="cplusplusprimer_lippman_moo_lajoie\ch_4.cpp">
@@ -29,15 +35,6 @@
     </ClCompile>
     <ClCompile Include="cplusplusprimer_lippman_moo_lajoie\ch_3.cpp">
       <Filter>Source Files\CPlusPlusPrimer_Lippman_Moo_Lajoie</Filter>
-    </ClCompile>
-    <ClCompile Include="cplusplusprimerplus_prata\chapter_2.cpp">
-      <Filter>Source Files\CPlusPlusPrimerPlus_Prata</Filter>
-    </ClCompile>
-    <ClCompile Include="cplusplusprimerplus_prata\chapter_3.cpp">
-      <Filter>Source Files\CPlusPlusPrimerPlus_Prata</Filter>
-    </ClCompile>
-    <ClCompile Include="cplusplusprimerplus_prata\chapter_4.cpp">
-      <Filter>Source Files\CPlusPlusPrimerPlus_Prata</Filter>
     </ClCompile>
     <ClCompile Include="cplusplusprimerplus_prata\chapter_2.cpp">
       <Filter>Source Files</Filter>
@@ -60,8 +57,22 @@
     <ClCompile Include="CPlusPlusPrimer_Lippman_Moo_Lajoie\ch_4.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ex_5_10.cpp">
-      <Filter>Source Files\CPlusPlusPrimerPlus_Prata\chapter_5</Filter>
+    <ClCompile Include="CPlusPlusPrimer_Lippman_Moo_Lajoie\ch_3.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="CPlusPlusPrimer_Lippman_Moo_Lajoie\ch_4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_6_1.cpp">
+      <Filter>Source Files\CPlusPlusPrimerPlus_Prata\chapter_6</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_5_3.cpp">
+      <Filter>Source Files\CPlusPlusPrimer_Lippman_Moo_Lajoie\chapter_5</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
