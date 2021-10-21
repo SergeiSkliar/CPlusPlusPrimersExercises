@@ -36,15 +36,6 @@
     <ClCompile Include="cplusplusprimer_lippman_moo_lajoie\ch_3.cpp">
       <Filter>Source Files\CPlusPlusPrimer_Lippman_Moo_Lajoie</Filter>
     </ClCompile>
-    <ClCompile Include="cplusplusprimerplus_prata\chapter_2.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="cplusplusprimerplus_prata\chapter_3.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="cplusplusprimerplus_prata\chapter_4.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="cplusplusprimer_lippman_moo_lajoie\ch_3.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -65,6 +56,15 @@
     </ClCompile>
     <ClCompile Include="ex_6_1.cpp">
       <Filter>Source Files\CPlusPlusPrimerPlus_Prata\chapter_6</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlusPlusPrimer_Lippman_Moo_Lajoie\ch_3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlusPlusPrimer_Lippman_Moo_Lajoie\ch_4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_5_5.cpp">
+      <Filter>Source Files\CPlusPlusPrimer_Lippman_Moo_Lajoie\chapter_5</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
