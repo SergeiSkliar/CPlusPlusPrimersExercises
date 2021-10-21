@@ -63,6 +63,9 @@
     <ClCompile Include="CPlusPlusPrimer_Lippman_Moo_Lajoie\ch_4.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ex_5_6.cpp">
+      <Filter>Source Files\CPlusPlusPrimer_Lippman_Moo_Lajoie\chapter_5</Filter>
+    </ClCompile>
     <ClCompile Include="ex_5_5.cpp">
       <Filter>Source Files\CPlusPlusPrimer_Lippman_Moo_Lajoie\chapter_5</Filter>
     </ClCompile>

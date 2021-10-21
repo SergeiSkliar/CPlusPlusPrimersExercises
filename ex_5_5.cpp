@@ -16,7 +16,12 @@ int main() {
 		else {
 			lettergrade = scores[(grade - 50) / 10];
 			if (grade != 100) {
-				lettergrade += (grade % 10 > 7 ? "+" : (grade % 10 < 3 ? "-" : ""));
+				if (grade % 10 > 7) {
+					lettergrade += "+";
+				}
+				else if (grade % 10 < 3) {
+					lettergrade += "-";
+				}
 			}
 		}
 		std::cout << lettergrade << std::endl;
