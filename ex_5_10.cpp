@@ -5,7 +5,6 @@
 //	aCnt, and so forth.
 
 #include<iostream>
-#include<string>
 
 int main() {
 	char ch;
