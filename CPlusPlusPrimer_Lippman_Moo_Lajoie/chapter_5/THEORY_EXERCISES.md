@@ -45,7 +45,7 @@ Correct: ``if (ival < minval) {minval = ival;`
 `if (!ival)`
 `cout << "ival = 0\n";`
 
-Correct: `int ival;``if (ival = get_value())`
+Correct: `int ival; if (ival = get_value())`
 `cout << "ival = " << ival << endl;`
 `if (!ival)`
 `cout << "ival = 0\n";`
@@ -54,7 +54,7 @@ Correct: `int ival;``if (ival = get_value())`
 `ival = get_value();` 
 
 Correct: `if (ival == 0)`
-``ival = get_value();``
+`ival = get_value();`
 
 Exercise 5.8: What is a “dangling else”? How are else clauses resolved in C++?
 Problem of matching `if` and `else` statements. In C++ this problem resolved by matching `else` statement to the closest `if`.
