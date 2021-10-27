@@ -59,3 +59,19 @@ Correct: `if (ival == 0)`
 Exercise 5.8: What is a “dangling else”? How are else clauses resolved in C++?
 Problem of matching `if` and `else` statements. In C++ this problem resolved by matching `else` statement to the closest `if`.
 
+Exercise 5.15: Explain each of the following loops. Correct any problems
+you detect.  
+
+(a)
+`for (int ix = 0; ix != sz; ++ix) { /* . . . */ }`
+`if (ix != sz) // . . .`
+Answer: `ix` visible only in the scope of the `for` loop.
+
+(b) 
+`int ix;`
+`for (ix != sz; ++ix) { /* . . . */ }`
+Answer: `int ix = 0;`  index variable should be initialized.  Missed initializer, correct: `for ( ; ix != sz; ++ix)`
+
+(c) 
+`for (int ix = 0; ix != sz; ++ix, ++ sz) { /* . . . */ }`  
+Answer: incrementing `sz` is a fallacy. `ix` will never be equal to `sz`.
