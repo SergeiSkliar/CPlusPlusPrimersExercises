@@ -55,4 +55,6 @@ int main() {
 	if (patrons == 0) {
 		std::cout << "None" << std::endl;
 	}
+
+	delete[] all_patrons;
 }

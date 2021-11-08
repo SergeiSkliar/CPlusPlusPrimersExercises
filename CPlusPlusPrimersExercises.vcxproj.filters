@@ -96,7 +96,13 @@
     <ClCompile Include="CPlusPlusPrimer_Lippman_Moo_Lajoie\ch_4.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ex_6_6.cpp">
+    <ClCompile Include="CPlusPlusPrimer_Lippman_Moo_Lajoie\ch_3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlusPlusPrimer_Lippman_Moo_Lajoie\ch_4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_6_7.cpp">
       <Filter>Source Files\CPlusPlusPrimerPlus_Prata\chapter_6</Filter>
     </ClCompile>
   </ItemGroup>
