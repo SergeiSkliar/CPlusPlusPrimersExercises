@@ -102,7 +102,7 @@
     <ClCompile Include="CPlusPlusPrimer_Lippman_Moo_Lajoie\ch_4.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ex_6_7.cpp">
+    <ClCompile Include="ex_6_8.cpp">
       <Filter>Source Files\CPlusPlusPrimerPlus_Prata\chapter_6</Filter>
     </ClCompile>
   </ItemGroup>
