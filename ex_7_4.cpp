@@ -24,12 +24,13 @@ int main()
 			std::cout << " of winning grand prize.\n";
 			std::cout << "Next two numbers (q to quit): ";
 		}
-		else 
+		else
 			break;
 	}
 	std::cout << "bye\n";
 	return 0;
 }
+
 // the following function calculates the probability of picking picks
 // numbers correctly from numbers choices
 long double probability(unsigned numbers, unsigned picks)
@@ -42,11 +43,3 @@ long double probability(unsigned numbers, unsigned picks)
 	return result;
 }
 
-//long double mega_probability(unsigned numbers) {
-//	long double result = 1.0; // here come some local variables
-//	long double n;
-//	unsigned p;
-//	for (n = numbers, p = picks; p > 0; n--, p--)
-//		result = result * n / p;
-//	return result;
-//}
