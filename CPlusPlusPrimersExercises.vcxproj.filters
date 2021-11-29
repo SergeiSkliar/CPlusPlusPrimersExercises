@@ -129,7 +129,16 @@
     <ClCompile Include="CPlusPlusPrimer_Lippman_Moo_Lajoie\ch_4.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ex_7_5.cpp">
+    <ClCompile Include="ex_7_6.cpp">
+      <Filter>Source Files\CPlusPlusPrimerPlus_Prata\chapter_7</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlusPlusPrimer_Lippman_Moo_Lajoie\ch_3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlusPlusPrimer_Lippman_Moo_Lajoie\ch_4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_7_7.cpp">
       <Filter>Source Files\CPlusPlusPrimerPlus_Prata\chapter_7</Filter>
     </ClCompile>
   </ItemGroup>
