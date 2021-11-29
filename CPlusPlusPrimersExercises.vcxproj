@@ -103,7 +103,6 @@
     <ClCompile Include="CPlusPlusPrimer_Lippman_Moo_Lajoie\ch_3.cpp" />
     <ClCompile Include="CPlusPlusPrimer_Lippman_Moo_Lajoie\ch_4.cpp" />
     <ClCompile Include="ex_7_6.cpp" />
-    <ClCompile Include="ex_7_7.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h" />
