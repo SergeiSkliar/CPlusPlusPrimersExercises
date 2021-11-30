@@ -38,7 +38,7 @@ double plusProduct(double x, double y) {
 
 double plusDiv(double first, double second) {
 	if (second == 0) {
-		std::cout << "Division by zero. Terminating";
+		std::cout << "Division by zero!!!" << std::endl;
 	}
 	else return first / second;
 }
