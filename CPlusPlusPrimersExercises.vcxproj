@@ -102,7 +102,7 @@
     <ClCompile Include="cplusplusprimer_lippman_moo_lajoie\ch_4.cpp" />
     <ClCompile Include="CPlusPlusPrimer_Lippman_Moo_Lajoie\ch_3.cpp" />
     <ClCompile Include="CPlusPlusPrimer_Lippman_Moo_Lajoie\ch_4.cpp" />
-    <ClCompile Include="ex_5_21.cpp" />
+    <ClCompile Include="ex_5_23_24_25.cpp" />
     <ClCompile Include="ex_8_1.cpp" />
   </ItemGroup>
   <ItemGroup>
