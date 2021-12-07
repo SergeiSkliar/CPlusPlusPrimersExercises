@@ -159,9 +159,6 @@
     <ClCompile Include="ex_8_1.cpp">
       <Filter>Source Files\CPlusPlusPrimerPlus_Prata\chapter_8</Filter>
     </ClCompile>
-    <ClCompile Include="ex_5_23_24_25.cpp">
-      <Filter>Source Files\CPlusPlusPrimer_Lippman_Moo_Lajoie\chapter_5</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">
