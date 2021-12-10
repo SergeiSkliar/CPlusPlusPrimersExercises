@@ -1,32 +1,31 @@
-#include <iostream>
+#include<iostream>
+#include<cstring>
 
-void print_str(const std::string&, int repeat = 0);
-int count = 0;
+struct CandyBar {
+	std::string name = "Millennium Munch";
+	double weight = 2.85;
+	int calories = 350;
+};
+
+void setCandyBar(CandyBar &, const char *, double, int);
+void printCandyBar(const CandyBar &);
 
 int main() {
-	std::string str = "Testing\n";
-	std::cout << "First call:\n";
-	print_str(str);
-	std::cout << "Second call:\n";
-	print_str(str);
-	std::cout << "Third call:\n";
-	print_str(str, -13);
-	std::cout << "Fourth call:\n";
-	print_str(str, 4);
-	std::cout << "Fifth call:\n";
-	print_str(str, 0);
+	CandyBar can{};
+	printCandyBar(can);
+	setCandyBar(can, "Bounty", 2.5, 300);
+	printCandyBar(can);
 }
 
-void print_str(const std::string& str, int repeat) {
-	++count;
-	if (repeat != 0)
-	{
-		for (int i = 0; i != count; ++i) 
-		{
-			std::cout << str << std::endl;
-		}
-	}
-	else
-		std::cout << str << std::endl;
+void setCandyBar(CandyBar& candy, const char* candy_name, double candy_weight, int candy_cal) {
+	candy.name = candy_name;
+	//strcpy(candy.name, candy_name);
+	candy.weight = candy_weight;
+	candy.calories = candy_cal;
 }
 
+void printCandyBar(const CandyBar& candy) {
+	std::cout << "Candy brand: " << candy.name << std::endl;
+	std::cout << "Weight of candy: " << candy.weight << std::endl;
+	std::cout << "Calories in candy: " << candy.calories << std::endl;
+}
