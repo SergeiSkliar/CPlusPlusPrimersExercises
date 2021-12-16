@@ -102,9 +102,11 @@
     <ClCompile Include="cplusplusprimer_lippman_moo_lajoie\ch_4.cpp" />
     <ClCompile Include="CPlusPlusPrimer_Lippman_Moo_Lajoie\ch_3.cpp" />
     <ClCompile Include="CPlusPlusPrimer_Lippman_Moo_Lajoie\ch_4.cpp" />
-    <ClCompile Include="ex_8_6.cpp" />
+    <ClCompile Include="ex_10_1.cpp" />
+    <ClCompile Include="ex_10_1_main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ex_10_1.h" />
     <ClInclude Include="resource.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
