@@ -14,29 +14,31 @@ namespace VECTOR
 	// should be about 57.2957795130823
 	// private methods
 	// calculates magnitude from x and y
-	double Vector::magval() const {
-		return sqrt(x * x + y * y);
+	void Vector::set_mag()
+	{
+		mag = sqrt(x * x + y * y);
 	}
-	double Vector::angval() const {
+	void Vector::set_ang()
+	{
 		if (x == 0.0 && y == 0.0)
-			return 0.0;
+			ang = 0.0;
 		else
-			return atan2(y, x);
+			ang = atan2(y, x);
 	}
 	// set x from polar coordinate
 	void Vector::set_x()
 	{
-		x = x * cos(y);
+		x = mag * cos(ang);
 	}
 	// set y from polar coordinate
 	void Vector::set_y()
 	{
-		y = x * sin(y);
+		y = mag * sin(ang);
 	}
 	// public methods
 	Vector::Vector() // default constructor
 	{
-		x = y = 0.0;
+		x = y = mag = ang = 0.0;
 		mode = RECT;
 	}
 	// construct vector from rectangular coordinates if form is r
@@ -48,11 +50,13 @@ namespace VECTOR
 		{
 			x = n1;
 			y = n2;
+			set_mag();
+			set_ang();
 		}
 		else if (form == POL)
 		{
-			x = n1;
-			y = n2 / Rad_to_deg;
+			mag = n1;
+			ang = n2 / Rad_to_deg;
 			set_x();
 			set_y();
 		}
@@ -60,7 +64,7 @@ namespace VECTOR
 		{
 			cout << "Incorrect 3rd argument to Vector() -- ";
 			cout << "vector set to 0\n";
-			x = y = 0.0;
+			x = y = mag = ang = 0.0;
 			mode = RECT;
 		}
 	}
@@ -74,11 +78,13 @@ namespace VECTOR
 		{
 			x = n1;
 			y = n2;
+			set_mag();
+			set_ang();
 		}
 		else if (form == POL)
 		{
-			x = n1;
-			y = n2 / Rad_to_deg;
+			mag = n1;
+			ang = n2 / Rad_to_deg;
 			set_x();
 			set_y();
 		}
@@ -86,14 +92,13 @@ namespace VECTOR
 		{
 			cout << "Incorrect 3rd argument to Vector() -- ";
 			cout << "vector set to 0\n";
-			x = y = 0.0;
+			x = y = mag = ang = 0.0;
 			mode = RECT;
 		}
 	}
 	Vector::~Vector() // destructor
 	{
 	}
-
 	void Vector::polar_mode() // set to polar mode
 	{
 		mode = POL;
@@ -137,8 +142,8 @@ namespace VECTOR
 			os << "(x,y) = (" << v.x << ", " << v.y << ")";
 		else if (v.mode == Vector::POL)
 		{
-			os << "(m,a) = (" << v.magval() << ", "
-				<< v.angval() * Rad_to_deg << ")";
+			os << "(m,a) = (" << v.mag << ", "
+				<< v.ang * Rad_to_deg << ")";
 		}
 		else
 			os << "Vector object mode is invalid";
