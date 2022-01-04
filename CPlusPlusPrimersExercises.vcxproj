@@ -102,12 +102,12 @@
     <ClCompile Include="cplusplusprimer_lippman_moo_lajoie\ch_4.cpp" />
     <ClCompile Include="CPlusPlusPrimer_Lippman_Moo_Lajoie\ch_3.cpp" />
     <ClCompile Include="CPlusPlusPrimer_Lippman_Moo_Lajoie\ch_4.cpp" />
-    <ClCompile Include="randwalk.cpp" />
-    <ClCompile Include="vect.cpp" />
+    <ClCompile Include="usetime3.cpp" />
+    <ClCompile Include="mytime3.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h" />
-    <ClInclude Include="vect.h" />
+    <ClInclude Include="mytime3.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
