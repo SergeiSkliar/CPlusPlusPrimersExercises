@@ -213,8 +213,11 @@
     <ClCompile Include="CPlusPlusPrimer_Lippman_Moo_Lajoie\ch_4.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="CPlusPlusPrimerPlus_Prata\ch_11\ex_5\stonewt.cpp">
-      <Filter>Source Files\CPlusPlusPrimerPlus_Prata\chapter_11</Filter>
+    <ClCompile Include="CPlusPlusPrimer_Lippman_Moo_Lajoie\ch_3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlusPlusPrimer_Lippman_Moo_Lajoie\ch_4.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="CPlusPlusPrimer_Lippman_Moo_Lajoie\ch_3.cpp">
       <Filter>Source Files</Filter>
@@ -222,7 +225,10 @@
     <ClCompile Include="CPlusPlusPrimer_Lippman_Moo_Lajoie\ch_4.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="CPlusPlusPrimerPlus_Prata\ch_11\ex_5\stone.cpp">
+    <ClCompile Include="CPlusPlusPrimerPlus_Prata\ch_11\ex_6\stonewt.cpp">
+      <Filter>Source Files\CPlusPlusPrimerPlus_Prata\chapter_11</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlusPlusPrimerPlus_Prata\ch_11\ex_6\ex_6.cpp">
       <Filter>Source Files\CPlusPlusPrimerPlus_Prata\chapter_11</Filter>
     </ClCompile>
   </ItemGroup>
@@ -230,8 +236,8 @@
     <ClInclude Include="resource.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="CPlusPlusPrimerPlus_Prata\ch_11\ex_5\stonewt.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="CPlusPlusPrimerPlus_Prata\ch_11\ex_6\stonewt.h">
+      <Filter>Source Files\CPlusPlusPrimerPlus_Prata\chapter_11</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
