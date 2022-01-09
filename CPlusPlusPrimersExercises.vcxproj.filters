@@ -225,10 +225,10 @@
     <ClCompile Include="CPlusPlusPrimer_Lippman_Moo_Lajoie\ch_4.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="CPlusPlusPrimerPlus_Prata\ch_11\ex_6\stonewt.cpp">
+    <ClCompile Include="CPlusPlusPrimerPlus_Prata\ch_11\ex_7\complex0.cpp">
       <Filter>Source Files\CPlusPlusPrimerPlus_Prata\chapter_11</Filter>
     </ClCompile>
-    <ClCompile Include="CPlusPlusPrimerPlus_Prata\ch_11\ex_6\ex_6.cpp">
+    <ClCompile Include="CPlusPlusPrimerPlus_Prata\ch_11\ex_7\ex_7.cpp">
       <Filter>Source Files\CPlusPlusPrimerPlus_Prata\chapter_11</Filter>
     </ClCompile>
   </ItemGroup>
@@ -236,7 +236,7 @@
     <ClInclude Include="resource.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="CPlusPlusPrimerPlus_Prata\ch_11\ex_6\stonewt.h">
+    <ClInclude Include="CPlusPlusPrimerPlus_Prata\ch_11\ex_7\complex0.h">
       <Filter>Source Files\CPlusPlusPrimerPlus_Prata\chapter_11</Filter>
     </ClInclude>
   </ItemGroup>
