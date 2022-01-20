@@ -237,19 +237,13 @@
     <ClCompile Include="CPlusPlusPrimer_Lippman_Moo_Lajoie\ch_4.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="CPlusPlusPrimerPlus_Prata\ch_9\ex_2\golf.cpp">
-      <Filter>Source Files\CPlusPlusPrimerPlus_Prata\chapter_9</Filter>
-    </ClCompile>
-    <ClCompile Include="CPlusPlusPrimerPlus_Prata\ch_9\ex_2\ex_2.cpp">
+    <ClCompile Include="CPlusPlusPrimerPlus_Prata\ch_9\ex_3\ex_3.cpp">
       <Filter>Source Files\CPlusPlusPrimerPlus_Prata\chapter_9</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">
       <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="CPlusPlusPrimerPlus_Prata\ch_9\ex_2\golf.h">
-      <Filter>Source Files\CPlusPlusPrimerPlus_Prata\chapter_9</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
