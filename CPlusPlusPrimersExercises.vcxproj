@@ -98,15 +98,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="CPlusPlusPrimerPlus_Prata\ch_10\ex_3\ex_3.cpp" />
-    <ClCompile Include="CPlusPlusPrimerPlus_Prata\ch_10\ex_3\golf.cpp" />
+    <ClCompile Include="CPlusPlusPrimerPlus_Prata\ch_10\ex_4\ex_4.cpp" />
+    <ClCompile Include="CPlusPlusPrimerPlus_Prata\ch_10\ex_4\sales.cpp" />
     <ClCompile Include="cplusplusprimer_lippman_moo_lajoie\ch_3.cpp" />
     <ClCompile Include="cplusplusprimer_lippman_moo_lajoie\ch_4.cpp" />
     <ClCompile Include="CPlusPlusPrimer_Lippman_Moo_Lajoie\ch_3.cpp" />
     <ClCompile Include="CPlusPlusPrimer_Lippman_Moo_Lajoie\ch_4.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="CPlusPlusPrimerPlus_Prata\ch_10\ex_3\golf.h" />
+    <ClInclude Include="CPlusPlusPrimerPlus_Prata\ch_10\ex_4\sales.h" />
     <ClInclude Include="resource.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
