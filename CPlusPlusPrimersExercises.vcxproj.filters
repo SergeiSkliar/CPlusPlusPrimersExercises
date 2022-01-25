@@ -255,15 +255,15 @@
     <ClCompile Include="CPlusPlusPrimer_Lippman_Moo_Lajoie\ch_4.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="CPlusPlusPrimerPlus_Prata\ch_10\ex_6\ex_6.cpp">
+    <ClCompile Include="CPlusPlusPrimerPlus_Prata\ch_10\ex_7\ex_7.cpp">
       <Filter>Source Files\CPlusPlusPrimerPlus_Prata\chapter_10</Filter>
     </ClCompile>
-    <ClCompile Include="CPlusPlusPrimerPlus_Prata\ch_10\ex_6\move.cpp">
+    <ClCompile Include="CPlusPlusPrimerPlus_Prata\ch_10\ex_7\plorg.cpp">
       <Filter>Source Files\CPlusPlusPrimerPlus_Prata\chapter_10</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="CPlusPlusPrimerPlus_Prata\ch_10\ex_6\move.h">
+    <ClInclude Include="CPlusPlusPrimerPlus_Prata\ch_10\ex_7\plorg.h">
       <Filter>Source Files\CPlusPlusPrimerPlus_Prata\chapter_10</Filter>
     </ClInclude>
   </ItemGroup>
