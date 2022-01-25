@@ -243,18 +243,24 @@
     <ClCompile Include="CPlusPlusPrimer_Lippman_Moo_Lajoie\ch_4.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="CPlusPlusPrimerPlus_Prata\ch_10\ex_4\sales.cpp">
+    <ClCompile Include="CPlusPlusPrimer_Lippman_Moo_Lajoie\ch_3.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="CPlusPlusPrimerPlus_Prata\ch_10\ex_4\ex_4.cpp">
+    <ClCompile Include="CPlusPlusPrimer_Lippman_Moo_Lajoie\ch_4.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlusPlusPrimerPlus_Prata\ch_10\ex_5\Stack.cpp">
+      <Filter>Source Files\CPlusPlusPrimerPlus_Prata\chapter_10</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlusPlusPrimerPlus_Prata\ch_10\ex_5\ex_5.cpp">
+      <Filter>Source Files\CPlusPlusPrimerPlus_Prata\chapter_10</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="resource.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="CPlusPlusPrimerPlus_Prata\ch_10\ex_5\Stack.h">
+      <Filter>Source Files\CPlusPlusPrimerPlus_Prata\chapter_10</Filter>
     </ClInclude>
-    <ClInclude Include="CPlusPlusPrimerPlus_Prata\ch_10\ex_4\sales.h">
+    <ClInclude Include="CPlusPlusPrimerPlus_Prata\ch_10\ex_5\customer.h">
       <Filter>Source Files\CPlusPlusPrimerPlus_Prata\chapter_10</Filter>
     </ClInclude>
   </ItemGroup>
