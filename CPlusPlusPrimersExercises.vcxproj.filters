@@ -43,6 +43,9 @@
     <Filter Include="Source Files\CPlusPlusPrimerPlus_Prata\chapter_11">
       <UniqueIdentifier>{a2c17fe1-80bd-4094-8591-d227cb99d2c8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\CPlusPlusPrimerPlus_Prata\chapter_12">
+      <UniqueIdentifier>{b9f9b14e-7ed7-40b3-83e7-aadd27fe9027}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="cplusplusprimer_lippman_moo_lajoie\ch_4.cpp">
@@ -255,16 +258,28 @@
     <ClCompile Include="CPlusPlusPrimer_Lippman_Moo_Lajoie\ch_4.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="CPlusPlusPrimerPlus_Prata\ch_10\ex_8\list.cpp">
-      <Filter>Source Files\CPlusPlusPrimerPlus_Prata\chapter_10</Filter>
+    <ClCompile Include="CPlusPlusPrimer_Lippman_Moo_Lajoie\ch_3.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="CPlusPlusPrimerPlus_Prata\ch_10\ex_8\ex_8.cpp">
-      <Filter>Source Files\CPlusPlusPrimerPlus_Prata\chapter_10</Filter>
+    <ClCompile Include="CPlusPlusPrimer_Lippman_Moo_Lajoie\ch_4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlusPlusPrimer_Lippman_Moo_Lajoie\ch_3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlusPlusPrimer_Lippman_Moo_Lajoie\ch_4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlusPlusPrimerPlus_Prata\ch_12\ex_1\cow.cpp">
+      <Filter>Source Files\CPlusPlusPrimerPlus_Prata\chapter_12</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlusPlusPrimerPlus_Prata\ch_12\ex_1\ex_1.cpp">
+      <Filter>Source Files\CPlusPlusPrimerPlus_Prata\chapter_12</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="CPlusPlusPrimerPlus_Prata\ch_10\ex_8\list.h">
-      <Filter>Source Files\CPlusPlusPrimerPlus_Prata\chapter_10</Filter>
+    <ClInclude Include="CPlusPlusPrimerPlus_Prata\ch_12\ex_1\cow.h">
+      <Filter>Source Files\CPlusPlusPrimerPlus_Prata\chapter_12</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
