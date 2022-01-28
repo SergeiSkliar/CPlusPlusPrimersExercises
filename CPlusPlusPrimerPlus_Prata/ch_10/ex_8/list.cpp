@@ -2,49 +2,54 @@
 #include<iostream>
 #include <iterator>
 
-List::List()
+List::List(int size) : listsize(size)
 {
-	head = nullptr;
+	head = tail = nullptr;
+	items = 0;
 }
 
 List::~List()
 {
-	Node* next = head;
-	while (next) {
-		Node* deletion = next;
-		next = next->next; // save pointer to the next element
-		delete deletion; // delete current node
+	Node* temp;
+	while (head != nullptr) {
+		temp = head;
+		head = head->next; // save pointer to the next element
+		delete temp; // delete current node
 	}
 }
 
-bool List::isEmpty()
+bool List::isEmpty() const
 {
 	return (head == NULL);
 }
 
-void List::pushValue(int val)
+bool List::isFull() const
 {
-	Node* n = new Node();
-	n->x = val; //set new value
-	n->next = head; // make n point to the next node
-
-	head = n; // head points to new node
+	return items == listsize;
 }
 
-int List::popValue()
+bool List::pushValue(const int val)
 {
-	Node* n = head;
-
-	int pop = n->x;
-	head = head->next;
-	delete n;
-	return pop;
+	if (isFull()) 
+		return false;
+	Node* temp = new Node;
+	temp->x = val; //set new value
+	temp->next = nullptr; // make n point to the next node
+	++items;
+	if (head == nullptr)
+		head = temp;
+	else
+		tail->next = temp;
+	tail = temp; // tail points to new node
+	return true;
 }
 
-void List::visit(int i)
+void List::visit(void(*pf)(int& val))
 {
-	Node* visited = head;
-	for (int i = 0; i < i; ++i) {
-		++visited;
+	for (size_t i = 0; i < items; i++)
+	{
+		(*pf)
 	}
 }
+
+
