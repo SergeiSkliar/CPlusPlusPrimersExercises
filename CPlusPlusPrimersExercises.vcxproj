@@ -98,7 +98,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="CPlusPlusPrimer_Lippman_Moo_Lajoie\chapter_6\6_2\ex_6_21.cpp" />
+    <ClCompile Include="CPlusPlusPrimer_Lippman_Moo_Lajoie\chapter_6\6_2\ex_6_22.cpp" />
     <ClCompile Include="cplusplusprimer_lippman_moo_lajoie\ch_3.cpp" />
     <ClCompile Include="cplusplusprimer_lippman_moo_lajoie\ch_4.cpp" />
     <ClCompile Include="CPlusPlusPrimer_Lippman_Moo_Lajoie\ch_3.cpp" />
