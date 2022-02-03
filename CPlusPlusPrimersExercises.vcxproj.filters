@@ -297,8 +297,5 @@
     <ClCompile Include="CPlusPlusPrimer_Lippman_Moo_Lajoie\ch_4.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="CPlusPlusPrimer_Lippman_Moo_Lajoie\chapter_6\6_2\ex_6_27.cpp">
-      <Filter>Source Files\CPlusPlusPrimer_Lippman_Moo_Lajoie\chapter_6</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>
