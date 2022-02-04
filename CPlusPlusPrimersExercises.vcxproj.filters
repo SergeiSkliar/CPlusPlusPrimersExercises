@@ -303,7 +303,7 @@
     <ClCompile Include="CPlusPlusPrimer_Lippman_Moo_Lajoie\ch_4.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="CPlusPlusPrimer_Lippman_Moo_Lajoie\chapter_6\6_3\ex_6_34.cpp">
+    <ClCompile Include="CPlusPlusPrimer_Lippman_Moo_Lajoie\chapter_6\6_3\ex_6_36_37.cpp">
       <Filter>Source Files\CPlusPlusPrimer_Lippman_Moo_Lajoie\chapter_6</Filter>
     </ClCompile>
   </ItemGroup>
