@@ -1,5 +1,4 @@
 #include<iostream>
-#include"ex_6_54.h"
 #include<vector>
 
 int func(int, int);
