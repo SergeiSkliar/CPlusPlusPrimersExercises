@@ -49,14 +49,11 @@
     <Filter Include="Source Files\CPlusPlusPrimer_Lippman_Moo_Lajoie\chapter_6">
       <UniqueIdentifier>{923bfa1a-ecc8-4192-8bb6-82ca8e436f8e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\CPlusPlusPrimer_Lippman_Moo_Lajoie\chapter_7">
+      <UniqueIdentifier>{f5a58a53-0764-4d21-840b-a7adf6261a13}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="cplusplusprimer_lippman_moo_lajoie\ch_4.cpp">
-      <Filter>Source Files\CPlusPlusPrimer_Lippman_Moo_Lajoie</Filter>
-    </ClCompile>
-    <ClCompile Include="cplusplusprimer_lippman_moo_lajoie\ch_3.cpp">
-      <Filter>Source Files\CPlusPlusPrimer_Lippman_Moo_Lajoie</Filter>
-    </ClCompile>
     <ClCompile Include="cplusplusprimer_lippman_moo_lajoie\ch_3.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -315,8 +312,13 @@
     <ClCompile Include="CPlusPlusPrimer_Lippman_Moo_Lajoie\ch_4.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="CPlusPlusPrimer_Lippman_Moo_Lajoie\chapter_6\6_5\ex_6_56.cpp">
-      <Filter>Source Files\CPlusPlusPrimer_Lippman_Moo_Lajoie\chapter_6</Filter>
+    <ClCompile Include="ex_7_1.cpp">
+      <Filter>Source Files\CPlusPlusPrimer_Lippman_Moo_Lajoie\chapter_7</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="sales_data.h">
+      <Filter>Source Files\CPlusPlusPrimer_Lippman_Moo_Lajoie\chapter_7</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
