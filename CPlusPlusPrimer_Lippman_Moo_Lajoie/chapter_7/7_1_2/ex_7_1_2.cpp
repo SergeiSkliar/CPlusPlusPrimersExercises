@@ -12,7 +12,7 @@ int main()
 		// read and process the remaining transactions
 		while (std::cin >> trans.bookNo >> trans.revenue >> trans.units_sold) {
 			// if we're still processing the same book
-			if (total.bookNo == trans.bookNo)
+			if (total.isbn() == trans.isbn())
 				total.combine(trans); // update the running total
 			else {
 				// print results for the previous book
