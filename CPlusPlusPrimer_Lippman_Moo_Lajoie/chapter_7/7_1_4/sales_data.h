@@ -1,12 +1,16 @@
 #pragma once
 #include<iostream>
 #include<string>
+
+
 struct Sales_data {
 	//ex 7 11
+	friend std::istream& read(std::istream&, Sales_data&);
 	Sales_data() = default;
 	Sales_data(const std::string& s) : bookNo(s) {}
 	Sales_data(const std::string& s, unsigned n, double p) : bookNo(s), units_sold(n), revenue(n*p){}
-	Sales_data(std::istream& is) {
+	Sales_data(std::istream& is)
+	{
 		// ex 7 12
 		read(is, *this);
 	}
@@ -24,3 +28,4 @@ struct Sales_data {
 Sales_data add(const Sales_data&, const Sales_data&);
 std::ostream& print(std::ostream&, const Sales_data&);
 std::istream& read(std::istream&, Sales_data&);
+
