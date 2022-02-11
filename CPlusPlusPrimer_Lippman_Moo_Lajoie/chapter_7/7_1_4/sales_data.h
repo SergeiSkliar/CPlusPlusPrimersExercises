@@ -6,7 +6,7 @@
 struct Sales_data {
 	//ex 7 11
 	friend std::istream& read(std::istream&, Sales_data&);
-	Sales_data() = default;
+	Sales_data() : bookNo(""), units_sold(0), revenue(0) {}
 	Sales_data(const std::string& s) : bookNo(s) {}
 	Sales_data(const std::string& s, unsigned n, double p) : bookNo(s), units_sold(n), revenue(n*p){}
 	Sales_data(std::istream& is)

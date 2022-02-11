@@ -8,10 +8,10 @@ int main()
 	
 	// read the first transaction and ensure that there are data to process
 	if (std::cin) {
-		Sales_data trans(std::cin); // variable to hold the running sum
+		Sales_data trans; // variable to hold the running sum
 		// read and process the remaining transactions
 		//while (read(std::cin, trans)) {
-		while ((std::cin)) {
+		while (read(std::cin, trans)) {
 			// if we're still processing the same book
 			if (total.isbn() == trans.isbn())
 				total = add(total, trans); // update the running total
