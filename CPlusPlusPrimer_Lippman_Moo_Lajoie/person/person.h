@@ -3,6 +3,11 @@
 #include<iostream>
 
 struct Person {
+	Person() = default;
+	Person(const std::string& n) : name(n) {}
+	Person(const std::string& n, const std::string& a) : name(n), address(a) {}
+	Person(std::istream& is);
+
 	std::string name;
 	std::string address;
 

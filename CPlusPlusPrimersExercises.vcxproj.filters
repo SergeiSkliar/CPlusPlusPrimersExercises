@@ -309,16 +309,13 @@
     <ClCompile Include="CPlusPlusPrimer_Lippman_Moo_Lajoie\ch_4.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="CPlusPlusPrimer_Lippman_Moo_Lajoie\chapter_7\7_1_4\ex_7_1_4.cpp">
-      <Filter>Source Files\CPlusPlusPrimer_Lippman_Moo_Lajoie\chapter_7</Filter>
-    </ClCompile>
-    <ClCompile Include="CPlusPlusPrimer_Lippman_Moo_Lajoie\chapter_7\7_1_4\sales_data.cpp">
-      <Filter>Source Files\CPlusPlusPrimer_Lippman_Moo_Lajoie\chapter_7</Filter>
+    <ClCompile Include="CPlusPlusPrimer_Lippman_Moo_Lajoie\person\person.cpp">
+      <Filter>Source Files\CPlusPlusPrimer_Lippman_Moo_Lajoie\person</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="CPlusPlusPrimer_Lippman_Moo_Lajoie\chapter_7\7_1_4\sales_data.h">
-      <Filter>Source Files\CPlusPlusPrimer_Lippman_Moo_Lajoie\chapter_7</Filter>
+    <ClInclude Include="CPlusPlusPrimer_Lippman_Moo_Lajoie\person\person.h">
+      <Filter>Source Files\CPlusPlusPrimer_Lippman_Moo_Lajoie\person</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
