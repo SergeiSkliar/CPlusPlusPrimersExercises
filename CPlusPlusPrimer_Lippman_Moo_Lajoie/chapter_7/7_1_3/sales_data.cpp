@@ -33,7 +33,7 @@ std::ostream& print(std::ostream& os, const Sales_data& item)
 std::istream& read(std::istream& is, Sales_data& item)
 {
 	double price = 0;
-	is >> item.bookNo >> item.units_sold >> item >> price;
+	is >> item.bookNo >> item.units_sold >> price;
 	item.revenue = price * item.units_sold;
 	return is;
 }

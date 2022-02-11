@@ -317,9 +317,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="CPlusPlusPrimer_Lippman_Moo_Lajoie\chapter_7\7_1_2\person.h">
-      <Filter>Source Files\CPlusPlusPrimer_Lippman_Moo_Lajoie\person</Filter>
-    </ClInclude>
     <ClInclude Include="CPlusPlusPrimer_Lippman_Moo_Lajoie\chapter_7\7_1_3\sales_data.h">
       <Filter>Source Files\CPlusPlusPrimer_Lippman_Moo_Lajoie\chapter_7</Filter>
     </ClInclude>
