@@ -19,11 +19,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="CPlusPlusPrimer_Lippman_Moo_Lajoie\chapter_7\7_2_1\ex_7_21.cpp" />
-    <ClCompile Include="CPlusPlusPrimer_Lippman_Moo_Lajoie\chapter_7\7_2_1\sales_data.cpp" />
+    <ClCompile Include="CPlusPlusPrimer_Lippman_Moo_Lajoie\person\person.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="CPlusPlusPrimer_Lippman_Moo_Lajoie\chapter_7\7_2_1\sales_data.h" />
+    <ClInclude Include="CPlusPlusPrimer_Lippman_Moo_Lajoie\person\person.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
