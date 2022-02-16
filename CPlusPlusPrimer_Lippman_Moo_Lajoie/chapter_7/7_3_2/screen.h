@@ -28,6 +28,18 @@ public:
 	const Screen& display(std::ostream& os) const {
 		do_display(os);
 		return *this;
+
+		// ex 7 29
+		//Screen move(position r, position c);
+		//Screen set(char);
+		//Screen set(position, position, char);
+		//Screen display(std::ostream & os) {
+		//	do_display(os);
+		//	return *this;
+		//}
+		//const Screen display(std::ostream & os) const {
+		//	do_display(os);
+		//	return *this;
 	}
 };
 
@@ -37,3 +49,10 @@ inline Screen& Screen::move(position rw, position curs)
 	cursor = row + curs;
 	return *this;
 }
+
+//inline Screen Screen::move(position rw, position curs)
+//{
+//	position  row = rw * width;
+//	cursor = row + curs;
+//	return *this;
+//}
