@@ -292,4 +292,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CPlusPlusPrimer_Lippman_Moo_Lajoie\chapter_7\7_3_3\ex_7_31.h">
+      <Filter>Source Files\CPlusPlusPrimer_Lippman_Moo_Lajoie\chapter_7</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>
