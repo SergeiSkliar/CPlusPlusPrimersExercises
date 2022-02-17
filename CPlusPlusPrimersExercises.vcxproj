@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="CPlusPlusPrimer_Lippman_Moo_Lajoie\chapter_7\7_3_3\ex_7_31.h" />
+    <ClInclude Include="CPlusPlusPrimer_Lippman_Moo_Lajoie\chapter_7\7_3_4\ex_7_32.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
