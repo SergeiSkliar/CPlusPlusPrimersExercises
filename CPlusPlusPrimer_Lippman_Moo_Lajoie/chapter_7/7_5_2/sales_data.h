@@ -19,10 +19,13 @@ private:
 
 public:
 	//constructors
-	Sales_data(const std::string& s) : bookNo(s) {}
 	Sales_data(std::string s, unsigned cnt, double rev) :
-		bookNo(s), units_sold(cnt), revenue(rev* cnt) { }
-	Sales_data(std::istream& is = std::cin) { 
+		bookNo(s), units_sold(cnt), revenue(rev* cnt) { std::cout << "three argument constructor" << std::endl; }
+	Sales_data() : Sales_data("", 0, 0) { std::cout << "default constructor" << std::endl; }
+	Sales_data(const std::string& s) : Sales_data(s, 0, 0) { std::cout << "one argument constructor" << std::endl; }
+
+	Sales_data(std::istream& is) : Sales_data() {
+		std::cout << "istream constructor" << std::endl;
 		std::cout << "Enter data: ";
 		read(is, *this); 
 	}
