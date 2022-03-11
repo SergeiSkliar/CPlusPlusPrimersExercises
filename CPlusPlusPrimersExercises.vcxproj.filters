@@ -240,7 +240,7 @@
     <ClCompile Include="CPlusPlusPrimer_Lippman_Moo_Lajoie\ch_4.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="CPlusPlusPrimer_Lippman_Moo_Lajoie\chapter_8\8_2_2\ex_8_7.cpp">
+    <ClCompile Include="CPlusPlusPrimer_Lippman_Moo_Lajoie\chapter_8\8_2_2\ex_8_8.cpp">
       <Filter>Source Files\CPlusPlusPrimer_Lippman_Moo_Lajoie\chapter_8</Filter>
     </ClCompile>
   </ItemGroup>
