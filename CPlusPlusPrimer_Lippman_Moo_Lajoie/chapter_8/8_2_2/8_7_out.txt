@@ -1,0 +1,9 @@
+ISBN: 1235
+Units sold: 8
+Revenue: 24.3
+ISBN: 12365
+Units sold: 10
+Revenue: 10.5
+ISBN: 12320
+Units sold: 9
+Revenue: 9
