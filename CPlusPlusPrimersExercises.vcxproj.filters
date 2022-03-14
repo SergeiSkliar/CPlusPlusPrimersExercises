@@ -231,8 +231,5 @@
     <ClCompile Include="CPlusPlusPrimer_Lippman_Moo_Lajoie\ch_4.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="CPlusPlusPrimer_Lippman_Moo_Lajoie\chapter_9\9_2_1\ex_9_5.cpp">
-      <Filter>Source Files\CPlusPlusPrimer_Lippman_Moo_Lajoie\chapter_9</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>
