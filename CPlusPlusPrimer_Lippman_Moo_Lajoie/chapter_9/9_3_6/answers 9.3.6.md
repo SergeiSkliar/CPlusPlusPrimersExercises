@@ -19,3 +19,17 @@ did not assign the result of insert to begin? Write a program that omits
 this assignment to see if your expectation was correct.
 
 _After `insert` the stored `begin` iterator becomes invalidated._
+
+Exercise 9.34: Assuming vi is a container of ints that includes even and
+odd values, predict the behavior of the following loop. After you’ve analyzed
+this loop, write a program to test whether your expectations were correct.
+```c++
+// solution in ex_9_34.cpp
+iter = vi.begin(); // iter missing its type or type specifier auto
+while (iter != vi.end()) // loop body misses the {} - ++iter is outside the while loop
+// with the first odd value in the container the loop will run indefinitely
+    if (*iter % 2)
+        iter = vi.insert(iter, *iter); // after insert we are not updating the iterator - and we need to update it by 2, i.e. iter += 2 or std::advance(iter, 2). Or else it will point to the newly inserted element and run indefinitely
+    ++iter;
+```
+

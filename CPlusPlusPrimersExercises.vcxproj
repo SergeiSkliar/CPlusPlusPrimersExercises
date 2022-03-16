@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="CPlusPlusPrimer_Lippman_Moo_Lajoie\chapter_9\9_3_6\ex_9_33.cpp" />
+    <ClCompile Include="CPlusPlusPrimer_Lippman_Moo_Lajoie\chapter_9\9_3_6\ex_9_34.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
