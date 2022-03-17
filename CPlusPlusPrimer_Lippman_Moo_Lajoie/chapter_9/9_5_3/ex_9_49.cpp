@@ -4,11 +4,12 @@
 //containing words and reports the longest word that contains neither
 //ascenders nor descenders.
 
-#include<string>
-#include<iostream>
+#include <string>
+#include <iostream>
 #include <fstream>
 
-std::string read(const std::string& s, const std::string& pattern);
+bool isAscDesc(const std::string& source);
+std::string read(const std::string& source, const std::string& pattern);
 
 int main() {
 	std::string line, word;
@@ -16,13 +17,25 @@ int main() {
 	std::ifstream input(ifile);
 	std::ostream& os(std::cout);
 
-	std::string ascenders = "tfhkld";
+	std::string ascenders = "tfhkldb";
 	std::string descenders = "qypgj";
-	std::string non_a_d = "weruioaszxcvbnm";
+	std::string ascenders_descenders = "tfhkldbqypgj";
+	std::string non_a_d = "weruioaszxcvnm";
 
 }
 
-std::string read(const std::string& s, const std::string& pattern)
+bool isAscDesc(const std::string& source)
 {
+	std::string ascenders_descenders = "tfhkldbqypgj";;
+	return (source.find_first_of(ascenders_descenders) != std::string::npos);
+}
 
+std::string read(const std::string& source, const std::string& pattern)
+{
+	std::string::size_type pos = 0;
+	while ((pos = source.find_first_not_of(pattern, pos)) != std::string::npos) {
+		std::cout << "longest word without ascenders nor descenders: " << pos
+			<< " element is " << source[pos] << std::endl;
+		++pos; // move to the next character
+	}
 }
