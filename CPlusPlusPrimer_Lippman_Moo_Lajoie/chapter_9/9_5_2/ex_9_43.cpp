@@ -12,27 +12,29 @@ void replace_pattern(std::string& s, const std::string& oldVal, const std::strin
 int main() {
 	std::string s1{"going thru, r u ok?"};
 	replace_pattern(s1, "thru", "through");
-	replace_pattern(s1, "r", "are");
-	replace_pattern(s1, "u", "you");
+	replace_pattern(s1, " r ", " are ");
+	replace_pattern(s1, " u ", " you ");
 	std::cout << s1;
 }
 
 void replace_pattern(std::string& s, const std::string& oldVal, const std::string& newVal)
 {
-	for (auto it = s.begin(); it != s.end(); ++it)
+	for (auto it_s = s.begin(); it_s < s.end() - oldVal.size() + 1; )
 	{
-		auto pattern = oldVal.cbegin();
-		auto pos = it;
-		while (*pattern == *it)
+		auto it_old = oldVal.cbegin();
+		for (auto it = it_s; it_old < oldVal.end(); ++it_old, ++it)
 		{
-			++it;
-			++pattern;
+			if (*it != *it_old)
+				break;
 		}
-
-		if (pattern == oldVal.cend())
+		if (it_old == oldVal.cend())
 		{
-			pos = s.erase(pos, it);
-			it = s.insert(pos, newVal.cbegin(), newVal.cend());
+			std::string::size_type pos = it_s - s.begin();
+			s.erase(pos, oldVal.size());
+			s.insert(pos, newVal);
+			it_s = s.begin() + pos + newVal.size();
 		}
+		else
+			++it_s;
 	}
 }
