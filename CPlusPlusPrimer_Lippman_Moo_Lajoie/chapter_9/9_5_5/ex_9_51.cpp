@@ -3,6 +3,8 @@
 //representing a date.Your constructor should handle a variety of date
 //formats, such as January 1, 1900, 1 / 1 / 1900, Jan 1, 1900, and so on.
 
+//UNFINISHED
+
 #include <iostream>
 #include "date.h"
 
