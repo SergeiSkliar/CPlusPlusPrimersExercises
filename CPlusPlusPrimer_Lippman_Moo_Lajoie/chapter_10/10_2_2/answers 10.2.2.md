@@ -18,3 +18,9 @@ vec.reserve(10); // reserve is covered in § 9.4 (p. 356)
 fill_n(vec.begin(), 10, 0);
 ```
 _`reserve` only allocates memory, i.e. sets a `capacity` for a vector, but don't actually adds new elements. We can use either `resize` or `back_inserter`._
+
+Exercise 10.8: We said that algorithms do not change the size of the
+containers over which they operate. Why doesn’t the use of back_inserter
+invalidate this claim?
+
+_Because `back_inserter` is not an algorithm, but an iterator, which calls `push_back` member of `vector`. I.e. insertion of an element handled by the container's operation, not by the algorithm._
