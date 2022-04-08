@@ -1,0 +1,8 @@
+Imagine a number of philosophers sitting around a circular table. A fork is placed to the
+left of each philosopher. There is a big bowl of spaghetti in the center of the table. The
+philosophers spend their time thinking unless they get hungry. Once hungry, they pick
+up the forks on either side of them and eat. A philosopher cannot eat unless he is holding
+two forks. If the philosopher to his right or left is already using one of the forks he
+needs, he must wait until that philosopher finishes eating and puts the forks back down.
+Once a philosopher eats, he puts both his forks back down on the table and waits until he
+is hungry again.
