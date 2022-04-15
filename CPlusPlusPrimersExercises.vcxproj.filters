@@ -67,6 +67,9 @@
     <Filter Include="Source Files\CPlusPlusPrimer_Lippman_Moo_Lajoie\chapter_11">
       <UniqueIdentifier>{48e405ba-938a-4e37-af16-4d26f890d44a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\CPlusPlusPrimerPlus_Prata\chapter_13">
+      <UniqueIdentifier>{540c3102-28f4-4bdb-acfb-a7a0fff5998d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CPlusPlusPrimer_Lippman_Moo_Lajoie\ch_3.cpp">
@@ -123,14 +126,22 @@
     <ClCompile Include="CPlusPlusPrimer_Lippman_Moo_Lajoie\ch_4.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="CPlusPlusPrimer_Lippman_Moo_Lajoie\ch_3.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="CPlusPlusPrimerPlus_Prata\ch_13\cd.cpp">
+      <Filter>Source Files\CPlusPlusPrimerPlus_Prata\chapter_13</Filter>
     </ClCompile>
-    <ClCompile Include="CPlusPlusPrimer_Lippman_Moo_Lajoie\ch_4.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="CPlusPlusPrimerPlus_Prata\ch_13\ex_1.cpp">
+      <Filter>Source Files\CPlusPlusPrimerPlus_Prata\chapter_13</Filter>
     </ClCompile>
-    <ClCompile Include="CPlusPlusPrimer_Lippman_Moo_Lajoie\chapter_11\11_2_1\ex_11_8.cpp">
-      <Filter>Source Files\CPlusPlusPrimer_Lippman_Moo_Lajoie\chapter_11</Filter>
+    <ClCompile Include="CPlusPlusPrimerPlus_Prata\ch_13\classic.cpp">
+      <Filter>Source Files\CPlusPlusPrimerPlus_Prata\chapter_13</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CPlusPlusPrimerPlus_Prata\ch_13\cd.h">
+      <Filter>Source Files\CPlusPlusPrimerPlus_Prata\chapter_13</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlusPlusPrimerPlus_Prata\ch_13\classic.h">
+      <Filter>Source Files\CPlusPlusPrimerPlus_Prata\chapter_13</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -19,7 +19,13 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="CPlusPlusPrimer_Lippman_Moo_Lajoie\chapter_11\11_2_1\ex_11_8.cpp" />
+    <ClInclude Include="CPlusPlusPrimerPlus_Prata\ch_13\cd.h" />
+    <ClInclude Include="CPlusPlusPrimerPlus_Prata\ch_13\classic.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CPlusPlusPrimerPlus_Prata\ch_13\cd.cpp" />
+    <ClCompile Include="CPlusPlusPrimerPlus_Prata\ch_13\classic.cpp" />
+    <ClCompile Include="CPlusPlusPrimerPlus_Prata\ch_13\ex_1.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
