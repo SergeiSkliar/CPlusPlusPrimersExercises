@@ -25,7 +25,7 @@
   <ItemGroup>
     <ClCompile Include="CPlusPlusPrimerPlus_Prata\ch_13\cd.cpp" />
     <ClCompile Include="CPlusPlusPrimerPlus_Prata\ch_13\classic.cpp" />
-    <ClCompile Include="CPlusPlusPrimerPlus_Prata\ch_13\ex_1.cpp" />
+    <ClCompile Include="CPlusPlusPrimerPlus_Prata\ch_13\ex_2.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
