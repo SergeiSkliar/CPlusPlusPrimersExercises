@@ -19,13 +19,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="CPlusPlusPrimerPlus_Prata\ch_13\cd.h" />
-    <ClInclude Include="CPlusPlusPrimerPlus_Prata\ch_13\classic.h" />
+    <ClInclude Include="CPlusPlusPrimerPlus_Prata\ch_13\ex_3\dma.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="CPlusPlusPrimerPlus_Prata\ch_13\cd.cpp" />
-    <ClCompile Include="CPlusPlusPrimerPlus_Prata\ch_13\classic.cpp" />
-    <ClCompile Include="CPlusPlusPrimerPlus_Prata\ch_13\ex_2.cpp" />
+    <ClCompile Include="CPlusPlusPrimerPlus_Prata\ch_13\ex_3\dma.cpp" />
+    <ClCompile Include="CPlusPlusPrimerPlus_Prata\ch_13\ex_3\usedma.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
