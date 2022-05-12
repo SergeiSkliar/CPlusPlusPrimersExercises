@@ -70,6 +70,9 @@
     <Filter Include="Source Files\CPlusPlusPrimerPlus_Prata\chapter_13">
       <UniqueIdentifier>{540c3102-28f4-4bdb-acfb-a7a0fff5998d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\CPlusPlusPrimerPlus_Prata\chapter_14">
+      <UniqueIdentifier>{52cb2678-a50a-4f7d-b48c-4e51a8644414}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CPlusPlusPrimer_Lippman_Moo_Lajoie\ch_3.cpp">
@@ -114,22 +117,16 @@
     <ClCompile Include="CPlusPlusPrimer_Lippman_Moo_Lajoie\ch_4.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="CPlusPlusPrimer_Lippman_Moo_Lajoie\ch_3.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="CPlusPlusPrimerPlus_Prata\ch_14\wine.cpp">
+      <Filter>Source Files\CPlusPlusPrimerPlus_Prata\chapter_14</Filter>
     </ClCompile>
-    <ClCompile Include="CPlusPlusPrimer_Lippman_Moo_Lajoie\ch_4.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="CPlusPlusPrimerPlus_Prata\ch_13\ex_3\dma.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="CPlusPlusPrimerPlus_Prata\ch_13\ex_3\usedma.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="CPlusPlusPrimerPlus_Prata\ch_14\pe14-1.cpp">
+      <Filter>Source Files\CPlusPlusPrimerPlus_Prata\chapter_14</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="CPlusPlusPrimerPlus_Prata\ch_13\ex_3\dma.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="CPlusPlusPrimerPlus_Prata\ch_14\wine.h">
+      <Filter>Source Files\CPlusPlusPrimerPlus_Prata\chapter_14</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
