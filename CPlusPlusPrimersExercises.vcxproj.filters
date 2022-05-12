@@ -117,15 +117,18 @@
     <ClCompile Include="CPlusPlusPrimer_Lippman_Moo_Lajoie\ch_4.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="CPlusPlusPrimerPlus_Prata\ch_14\wine.cpp">
+    <ClCompile Include="CPlusPlusPrimerPlus_Prata\ch_14\wine_inh.cpp">
       <Filter>Source Files\CPlusPlusPrimerPlus_Prata\chapter_14</Filter>
     </ClCompile>
-    <ClCompile Include="CPlusPlusPrimerPlus_Prata\ch_14\pe14-1.cpp">
+    <ClCompile Include="CPlusPlusPrimerPlus_Prata\ch_14\pe14-2.cpp">
       <Filter>Source Files\CPlusPlusPrimerPlus_Prata\chapter_14</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="CPlusPlusPrimerPlus_Prata\ch_14\wine.h">
+    <ClInclude Include="CPlusPlusPrimerPlus_Prata\ch_14\wine_inh.h">
+      <Filter>Source Files\CPlusPlusPrimerPlus_Prata\chapter_14</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlusPlusPrimerPlus_Prata\ch_14\pair.h">
       <Filter>Source Files\CPlusPlusPrimerPlus_Prata\chapter_14</Filter>
     </ClInclude>
   </ItemGroup>
